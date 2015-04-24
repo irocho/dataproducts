@@ -1,7 +1,7 @@
 ---
 title       : Machining
 subtitle    : Small calculations
-author      : irocho.shinyapps.io/_proxecto
+author      : irocho.shinyapps.io/drill
 job         : Developing Data Products
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter :  highlight.js  # {highlight.js, prettify, highlight}
