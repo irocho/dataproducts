@@ -42,30 +42,27 @@ There is a parameter call linear speed $ v_{c}$ that indicates the proper speed 
 This linear speed is tabulated. The materials and values used are:
 
 
-
-```r
-material= c("steel (50 kg/m2)", "steel (70 kg/m2)",
-            "steel (90 kg/m2)", "bronze","aluminium","brass")
-vc=c(30,25,18,40,100,80)
-```
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
 
 
-### Calculations
+--- .class #id 
+
+
+
+
+## Calculations
 
 If the hole has a diameter $\phi$ the speed in the drill has to be calculated:
 
 
 $$n=\frac{v_{c}·1000}{\pi·\phi}$$
 
-### This is what our shinyapp is doing!!
-
-[I'm an inline-style link with title](https://irocho.shinyapps.io/drill/ "Electronic drill")
-
-
---- .class #id 
+### This is what our shinyapp is doing!! 
+[Clic to visit our app](https://irocho.shinyapps.io/drill/ "Electronic drill")
 
 
-## How to use our small app
+
+## How to use it
 
 On the sidebar:
 
@@ -74,16 +71,14 @@ On the sidebar:
 * the diameter of the hole is selected 
 
 
-On the main panel:
-
-the drill speed is obtained
+On the main panel the drill speed is obtained
 
 
 
 --- &radio
 
 
-Just a question as a first test for my pupils to answer:
+Just a question as a first test for students to answer:
 
 
 ## Question 1

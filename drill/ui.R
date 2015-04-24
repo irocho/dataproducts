@@ -17,9 +17,9 @@ shinyUI(fluidPage(
       numericInput ('diameter','diameter [mm] of the hole',10, min=1, max=100, step=1),
       selectInput("metal", 
                   label="Material used", 
-                  choices= c("steel (50 kg/m2)"= 30,
-                             "steel (70 kg/m2)"= 25,
-                             "steel (90 kg/m2)"= 18,
+                  choices= c("steel-50 "= 30,
+                             "steel-70 "= 25,
+                             "steel-90 "= 18,
                               "bronze"= 40,
                               "aluminium"= 100,
                               "brass"=80)

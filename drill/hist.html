@@ -1,0 +1,49 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <script src='//ramnathv.github.io/rCharts/libraries/widgets/polycharts/js/polychart2.standalone.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart37bcf2a015d' class = 'rChart polycharts'></div>    
+    <script type='text/javascript'>
+    var chartParams = {
+ "dom": "chart37bcf2a015d",
+"width":    800,
+"height":    400,
+"layers": [
+ {
+ "x": "material",
+"y": "vc",
+"data": [     30,     25,     18,     40,    100,     80 ],
+"facet": null,
+"type": "bar" 
+} 
+],
+"facet": [],
+"guides": [],
+"coord": [],
+"id": "chart37bcf2a015d" 
+}
+    _.each(chartParams.layers, function(el){
+        el.data = polyjs.data(el.data)
+    })
+    var graph_chart37bcf2a015d = polyjs.chart(chartParams);
+</script>
+    
+    <script></script>    
+  </body>
+</html>
