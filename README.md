@@ -1,4 +1,4 @@
-# dataproducts
+# Coursera: Developing Data Products
 
 This is my project to Developing Data Products.
 
