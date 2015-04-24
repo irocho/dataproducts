@@ -58,6 +58,8 @@ $$n=\frac{v_{c}·1000}{\pi·\phi}$$
 
 ### This is what our shinyapp is doing!!
 
+[Clic to visit our app](https://irocho.shinyapps.io/drill/ "Electronic drill")
+
 
 --- .class #id 
 
